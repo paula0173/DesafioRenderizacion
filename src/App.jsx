@@ -20,7 +20,7 @@ function App() {
   const [listaColaboradores, setColaboradores] = useState(baseColaboradores);
 
   const [listaBusqueda, setListaBusqueda] = useState(listaColaboradores);
-  const [estadoAlerta, setestadoAlerta] = useState({ mensaje: "", color: "" })
+  const [estadoAlerta, setestadoAlerta] = useState({ mensaje: "Complete todos los campos", color: "Red" })
 
   const agregarColaborador = (datosColaborador) => {
 

@@ -68,7 +68,7 @@ const Formulario = ({estadoAlerta, agregarColaborador}) => {
   }
 
   return (
-    <Form className="square border rounded-3" onSubmit={validarInput}>
+    <Form className="square border rounded-3 bg-graylight" onSubmit={validarInput}>
 
       <Form.Group className="p-3">
         <h5 className=''>Agregar Colaborador</h5>
@@ -87,7 +87,7 @@ const Formulario = ({estadoAlerta, agregarColaborador}) => {
         <Form.Control name="telefono" className="mb-3" type="text" placeholder="Ingrese telefono 8 digitos" onChange={(e) => setTelefono(e.target.value)}
           value={telefono} />
 
-        <Button className='w-100 mb-3' variant="info" type="submit" > Agregar colaborador
+        <Button className='w-100 mb-3' variant="outline-primary" type="submit" > Agregar colaborador
         </Button>
       </Form.Group>
     </Form>

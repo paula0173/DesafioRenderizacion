@@ -1,7 +1,7 @@
 
 const Alert = ({estadoAlerta}) => {
   return (
- <div className="text-center square border border-dark rounded">
+ <div className="m-2 text-center square border border-dark rounded">
     <p className="fw-bold" style={{color:estadoAlerta.color}}>
           {estadoAlerta.mensaje} 
     </p>
